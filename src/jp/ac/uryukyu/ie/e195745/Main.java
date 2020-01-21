@@ -61,8 +61,6 @@ public class Main {
                  playerHands ++;
 
 
-
-
                  System.out.println("あなたの" + playerHands + "枚目のカードは" + toDescription(player.get(playerHands - 1)));
                  playerPoint = sumPoint(player);
                  System.out.println("現在の合計は" + playerPoint );
@@ -110,10 +108,5 @@ public class Main {
          }
 
     }
-
-
-
-
-
 
 }

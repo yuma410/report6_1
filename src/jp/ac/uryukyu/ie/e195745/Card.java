@@ -29,8 +29,6 @@ public class Card{
 
    }
 
-  //判定を入れる
-
 	//トランプの数字を得点計算用のポイントに変換するメソッド.J/Q/Kは10とする
     private static int toPoint(int num) {
         if(num ==11||num == 12||num == 13) {
